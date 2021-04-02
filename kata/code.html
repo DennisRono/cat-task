@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DennisRono</title>
+</head>
+<body>
+    <form class="form">
+        <input type="number" class="coins" placeholder="Elements">
+        <input type="submit" value="add" id="add">
+    </form>
+    <div class="render">
+
+    </div>
+    <Script>
+        let array = [1, 3];
+        let coins = document.querySelector(".coins").value;
+        document.querySelector("#add").addEventListener("click", function(e){
+            e.preventDefault;
+            if (array.length < 10){
+        for (let i = 0; i<array; i++){
+            array.push(coins);
+        }}
+        });
+        console.log(coins);
+        console.log(array); 
+        if (array.length > 2){      
+        let sum = array.reduce((a, b) => a + b);
+        let avg = sum/3;
+        const groupBy = (array, key) => array.reduce(
+            (result, item) => ({
+            ...result,
+            [item[key]]: [
+                ...(result[item[key]] || []),
+                item,
+            ],
+            }), 
+            {},
+        );
+        document.querySelector(".render").innerHTML = groupBy;
+        } else{
+            document.querySelector(".render").innerHTML = "You Must Add Elements!"; 
+        }
+    </Script>
+</body>
+</html>

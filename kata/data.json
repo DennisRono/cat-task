@@ -1,0 +1,52 @@
+{
+  "main": [
+    {
+      "username": "Dennis Kibet",
+      "email": "deno@gmail.com",
+      "password": "123456y",
+      "biddingid": "DK87"
+    },
+    {
+      "useraname": "philip",
+      "email": "philipssop@gmail.com",
+      "password": "philip123",
+      "biddingid": "PZBA"
+    },
+    {
+      "useraname": "philip",
+      "email": "philip@gmail.com",
+      "password": "philip123",
+      "biddingid": "OLmx"
+    },
+    {
+      "useraname": "james",
+      "email": "james@gmail.com",
+      "password": "james123",
+      "biddingid": "dabI"
+    },
+    {
+      "useraname": "Peshy",
+      "email": "peshyjones@gmail.com",
+      "password": "peshy254",
+      "biddingid": "heCuKo"
+    },
+    {
+      "useraname": "Peshy",
+      "email": "peshyjkones@gmail.com",
+      "password": "peshy254",
+      "biddingid": "cueMtH"
+    },
+    {
+      "useraname": "Peshy",
+      "email": "peshydjkones@gmail.com",
+      "password": "peshy254",
+      "biddingid": "0qNeYB"
+    },
+    {
+      "useraname": "Peshy",
+      "email": "ryan@gmail.com",
+      "password": "peshy254",
+      "biddingid": "UEJWYD"
+    }
+  ]
+}
